@@ -250,7 +250,7 @@ ol {
 }
 
 .button:focus {
-  outline:mone;
+  outline:none;
 }
 
 .button:focus-visible{
@@ -270,6 +270,10 @@ button:hover {
 }
 
 .content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
 
